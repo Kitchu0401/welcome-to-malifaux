@@ -11,7 +11,7 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 
 // routers
-const statRouter = require('./router/stat')
+const historyRouter = require('./router/history')
 
 const expressVueMiddleware = expressVue.init({
   rootPath: path.join(__dirname, 'views'),
@@ -23,6 +23,13 @@ const expressVueMiddleware = expressVue.init({
     ],
     scripts: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js' }
+    ],
+    styles: [
+      { 
+        style: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+        integrity: 'sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T',
+        crossorigin: 'anonymous'
+      }
     ]
   }
 })
@@ -33,7 +40,7 @@ app.use(morgan('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.use('/api/stat', statRouter)
+app.use('/api/history', historyRouter)
 
 // discord bot initialization
 require('./bot').initialize()

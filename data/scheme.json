@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Detonate Charges",
+    "value": 1,
+    "description": "**Reveal**: 턴 끝에 하나의 적 모델로부터 2인치 내에 둘 이상의 아군 스킴 마커들이 존재 할 경우 이 스킴을 공개하고 해당 마커 중 두 개를 제거하여 1점을 획득합니다.\n**End**: 게임 종료시에도 마찬가지로, 하나의 적 모델로부터 2인치 내에 둘 이상의 아군 스킴 마커들이 존재 할 경우 이 스킴을 공개하고 해당 마커 중 두 개를 제거하여 1점을 획득합니다.",
+    "description_en": "**Reveal**: At the end of the Turn, if you have two or more friendly Scheme Markers within 2\" of the same enemy model, you may reveal this Scheme and remove two such Scheme Markers to gain 1 VP.\n**End**: At the end of the game, if you have two or more friendly Scheme Markers within 2\" of the same enemy model, you may remove two such Scheme Markers to gain 1 VP."
+  },
+  {
+    "name": "Breakthrough",
+    "value": 2,
+    "description": "**Reveal**: 턴 끝에 한 개 이상의 아군 스킴 마커와 3인치 내에 적 모델이 존재하지 않는 아군 모델이 적 배치 구역에 존재 할 경우 이 스킴을 공개하고 해당 마커 중 한 개를 제거하여 1점을 획득합니다.\n**End**: 게임 종료시에 적 배치 구역에 세 개 이상의 아군 스킴 마커가 존재 할 경우 해당 마커 세 개를 제거하여 1점을 획득합니다.",
+    "description_en": "**Reveal**: At the end of the Turn, if you have one or more friendly Scheme Markers and a friendly model in the enemy Deployment Zone, and there are no enemy models within 3\" of that model, you may reveal this Scheme and remove one such Scheme Marker to gain 1 VP.\n**End**: At the end of the game, if you have three or more friendly Scheme Markers in the enemy Deployment Zone, you may remove three such Scheme Markers to gain 1 VP."
+  },
+  {
+    "name": "Harness the Ley Line",
+    "value": 3,
+    "description": "**Reveal**: 턴 끝에 세 개 이상의 아군 스킴 마커가 중앙선 위에 존재 할 경우 이 스킴을 공개하고 해당 마커 중 세 개를 제거하여 1점을 획득합니다.\n**End**: 게임 종료시에도 마찬가지로, 세 개 이상의 아군 스킴 마커가 중앙선 위에 존재 할 경우 해당 마커 세 개를 제거하여 1점을 획득합니다.",
+    "description_en": "**Reveal**: At the end of the Turn, if you have three or more friendly Scheme Markers on the Centerline, you may reveal this Scheme and remove three such Scheme Markers to gain 1 VP.\n**End**: At the end of the game, if you have three or more friendly Scheme Markers on the Centerline, you may remove three such Scheme Markers to gain 1 VP."
+  },
+  {
+    "name": "Search the Ruins",
+    "value": 4,
+    "description_en": "**Reveal**: At the end of the Turn, if you have two or more friendly Scheme Markers on the opponent’s table half, each in base contact with a different piece of terrain, you may reveal this Scheme and remove two such Scheme Markers to gain 1 VP.\n**End**: At the end of the game, if you have three or more different friendly Scheme Markers on the opponent’s table half, each in base contact with a different piece of terrain, you may remove three such Scheme Markers to gain 1 VP."
+  },
+  {
+    "name": "Dig Their Graves",
+    "value": 5,
+    "description_en": "**Reveal**: After killing an enemy model within 1\" of one or more friendly Scheme Markers, you may reveal this Scheme and remove one such Scheme Marker to gain 1 VP.\n**End**: At the end of the game, if you have three or more different Scheme Markers within 1\" of three different Corpse or Scrap Markers, you may remove three such Scheme Markers to gain 1 VP."
+  },
+  {
+    "name": "Hold Up Their Forces",
+    "value": 6,
+    "description_en": "**Reveal**: At the end of the Turn, if you have two or more friendly models, each engaging a different enemy model with higher Cost than itself, you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if you have two or more friendly models, each engaging a different enemy model with higher Cost than itself, gain 1 VP."
+  },
+  {
+    "name": "Take Prisoner",
+    "value": 7,
+    "description_en": "At the beginning of the game, secretly choose an enemy Minion or Enforcer.\n**Reveal**: At the end of the Turn, if you have a friendly model engaging the secretly chosen model and there are no other enemy models within 4\" of the secretly chosen model, you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if you have a friendly model engaging the secretly chosen model, or after this Scheme was revealed, if the secretly chosen model was killed by a model which was friendly to it, gain 1 VP."
+  },
+  {
+    "name": "Power Ritual",
+    "value": 8,
+    "description_en": "**Reveal**: At the end of the Turn, if you have a friendly Scheme Marker within 3\" of a table corner not part of your Deployment Zone, you may reveal this Scheme and remove that Scheme Marker to gain 1 VP. \n**End**: At the end of the game, if you have three or more different friendly Scheme Markers within 3\" of three different table corners, with no more than one table corner as part of your Deployment Zone, you may remove those Scheme Markers to gain 1 VP."
+    
+  },
+  {
+    "name": "Outflank",
+    "value": 9,
+    "description_en": "**Reveal**: At the end of the Turn, if you have two models, each within 3\" of where the centerline meets a different table edge or corner, you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if you have two models, each within 3\" of where the centerline meets a different table edge or corner, gain 1 VP. "
+  },
+  {
+    "name": "Assassinate",
+    "value": 10,
+    "description_en": "**Reveal**: At the end of the Turn, if the enemy Leader is in play and has half its maximum Health or less, you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if the enemy Leader is not in play, gain 1 VP."
+  },
+  {
+    "name": "Deliver a Message",
+    "value": 11,
+    "description_en": "At the beginning of the game, secretly choose an enemy Leader or Master.\n**Reveal**: During its Activation, a friendly model within 1\" of the secretly chosen model can take the Interact Action to target the secretly chosen model (the secretly chosen model is not treated as engaging the friendly model for the purposes of this Interact Action). If it does so, you may reveal this Scheme to gain 1 VP. \n**End**: At the end of the game, if the secretly chosen model is still in play and within 2\" of a friendly Scheme Marker, or after this Scheme was revealed, if the secretly chosen model was killed by a model which was friendly to it, gain 1 VP."
+  },
+  {
+    "name": "Claim Jump",
+    "value": 12,
+    "description_en": "At the beginning of the game, secretly choose a friendly non-Leader model.\n**Reveal**: At the end of the Turn, if there are no enemy models within 3\" of the secretly chosen model and the secretly chosen model is within 2\" of the centerpoint, you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if the secretly chosen model is still in play with half or more of its maximum Health and within 2\" of the centerpoint, gain 1 VP."
+  },
+  {
+    "name": "Vendetta",
+    "value": 13,
+    "description_en": "At the beginning of the game, secretly choose a friendly non-Totem model and an enemy non-Leader model with higher Cost.\n**Reveal**: At the end of the friendly model’s Activation, if it successfully dealt damage to the secretly chosen enemy model and the enemy model has half its maximum Health or less (but is still in play), you may reveal this Scheme to gain 1 VP.\n**End**: At the end of the game, if the friendly model is in play and the enemy model is not, gain 1 VP."
+  }
+]

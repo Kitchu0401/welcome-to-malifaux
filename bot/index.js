@@ -1,12 +1,13 @@
 const discord = require('discord.js')
 const client = new discord.Client()
 
-// const DISCORD_BOT_TOKEN = 'NDczNDM0MDY0MjA5MzEzODAy.D3UxSg.nKnmBKQSdnbQClcTcf9GEV6ExTQ'
 const DISCORD_BOT_TOKEN = process.argv[2]
 
 const bindFunctions = () => {
     require('./actions/log').bind(client)
-    require('./actions/stat').bind(client)
+    require('./actions/history').bind(client)
+    require('./actions/info').bind(client)
+    require('./actions/user').bind(client)
 }
 
 module.exports = {

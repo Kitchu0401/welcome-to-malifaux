@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Turf War",
+    "value": "R",
+    "description_en": "Divide the table into four table quarters. In the center of each table quarter, Drop a neutral Strategy Marker. Drop another neutral Strategy Marker in the center of the table. Strategy Markers are Impassable.\nStrategy Markers can be either friendly, neutral, or enemy. A Strategy Marker friendly to one player is enemy to the other (and vice versa). A model can take the Interact Action targeting a Strategy Marker in base contact with it to change its alignment from enemy to neutral or from neutral to friendly.\nWhen a friendly model kills an enemy model, it can change one Strategy Marker in the same table quarter as the killed model from enemy to neutral, if possible (the Marker in the center is considered to be in every table quarter).\nIf a model is in more than one table quarter, the model that killed it may decide which table quarter the killed model was in.\nAt the end of each Turn, a Crew gains 1 VP if it has more friendly Strategy Markers than it has scored VP for this Strategy."
+  },
+  {
+    "name": "Plant Explosives",
+    "value": "T",
+    "description_en": "After Deployment, starting with the player with Initiative, each player alternates placing Explosives Tokens on their deployed models until each player has placed a total of five Explosives Tokens on their models.nMinions can have a maximum of one Explosive Token placed on them, while non-Minions can have a maximum of two Explosive Tokens placed on them.\nA model with one or more Explosives Tokens can take the Interact Action to discard an Explosives Token and Drop a Strategy Marker into base contact with itself. Strategy Markers cannot be Dropped within 6\" of another friendly Strategy Marker.\nA model in base contact with a Strategy Marker can take the Interact Action to discard the Strategy Marker and gain an Explosives Token.\nIf a model with one or more Explosives Tokens is killed, a model in the opposing Crew that is within 3\" of the killed model may gain the killed model’s Explosives Tokens. Otherwise, they are discarded.\nAt the end of each Turn, a Crew gains 1 VP if there are more Strategy Markers on the opponent’s table half than this Crew has earned VP from this Strategy. Strategy Markers on the centerline count as being in both table halves."
+  },
+  {
+    "name": "Corrupted Idols",
+    "value": "M",
+    "description_en": "At the start of each Turn, after determining which player has Initiative, Drop a Strategy Marker centered on the centerline. The location of the Strategy Marker is determined by the suit of the Initiative Flip of the player with Initiative (and the direction is calculated from that player’s perspective): - m: 8\" from where the centerline meets the table edge on the left. - t: 8\" from where the centerline meets the table edge on the right. - r: On the centerpoint. - c: Where the centerline meets the table edge (player with Initiative chooses which table edge). - Joker: Reflip.\nIf the Strategy Marker would be Dropped on top of a Strategy Marker, Impassable terrain, or a model, the player with Initiative instead Drops the Strategy Marker evenly on the centerline, touching but not overlapping that Strategy Marker, Impassable terrain, or model. If this is not possible, the Strategy Marker is not Dropped.\nA model in base contact with a Strategy Marker can take the Interact Action and suffer up to three irreducible damage, ignoring Hard to Kill. A model may not suffer more damage than its current Health.\nDrop the Strategy Marker anywhere within X\" of its current location, not into base contact with a model or Impassable Terrain, where X is equal to the amount of damage suffered by the Interacting model (even if it was killed by the damage it suffered).\nAt the end of each Turn, a Crew gains 1 VP if there are more Strategy Markers completely on the opponent’s table half than it has earned VP from this Strategy."
+  },
+  {
+    "name": "Reckoning",
+    "value": "C",
+    "description_en": "At the end of each Turn, a Crew gains 1 VP if more enemy models were killed that Turn than it has scored VP for this Strategy, or if there are no more enemy models in play.\nFor the purposes of this Strategy, enemy Leaders and Masters each count as three models when killed and enemy Henchmen each count as two models when killed."
+  }
+]

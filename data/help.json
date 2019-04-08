@@ -1,0 +1,38 @@
+[
+  {
+    "command": "w2m.strategy",
+    "description": "스트래티지 목록을 알려줍니다.",
+    "description_detail": "명령어 뒤에 이름을 명시하면 해당 키워드가 포함되는 대상의 상세내용을 확인 가능합니다.",
+    "usage": [
+      "`w2m.strategy explosive`",
+      "`w2m.strategy idol`"
+    ]
+  },
+  {
+    "command": "w2m.scheme",
+    "description": "스킴 목록을 알려줍니다.",
+    "description_detail": "명령어 뒤에 이름을 나열하면 해당 키워드가 포함되는 대상을 5개까지 확인 가능합니다.",
+    "usage": [
+      "`w2m.scheme assis ruins`",
+      "`w2m.scheme breakthrough prisoner message ritual jump`"
+    ]
+  },
+  {
+    "command": "w2m.model",
+    "description": "모델 목록을 알려줍니다. 이름 또는 조건을 명시해야합니다.",
+    "description_detail": "명령어 이후 공백 단위로 모델명 또는 검색 조건을 입력 할 수 있으며 단문은 모델명으로, `{조건}:{값}` 형태는 검색 조건으로 처리됩니다.\n검색 조건 또는 모델명이 중복으로 입력 될 경우 후순위가 우선하여 처리됩니다.",
+    "parameter": [
+      "`k:keyword`: 키워드가 *정확히* 일치하는 모델을 알려줍니다.",
+      "`c:characteristic`: 특성이 입력한 키워드로 시작하는 모델을 알려줍니다.",
+      "~~`cst`:cost`: 비용이 입력한 값 이상인 모델을 알려줍니다.~~",
+      "~~`hth`:health`: 체력이 입력한 값 이상인 모델을 알려줍니다.~~",
+      "~~`mv`:move`: Move가 입력한 값 이상인 모델을 알려줍니다.~~",
+      "~~`df`:defence`: 디펜스가 입력한 값 이상인 모델을 알려줍니다.~~",
+      "~~`wp`:willpower`: 윌파워가 입력한 값 이상인 모델을 알려줍니다.~~"
+    ],
+    "usage": [
+      "`w2m.model marcus`",
+      "`w2m.model k:tricksy c:minion`"
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+{
+
+  "user": {
+    "mappings": {
+      "doc": {
+        "dynamic": false,
+        "properties": {
+          "id": {
+            "type": "keyword"
+          },
+          "name": {
+            "type": "keyword"
+          },
+          "history": {
+            "type": "nested",
+            "dynamic": false,
+            "properties": {
+              "id": {
+                "type": "keyword"
+              },
+              "win": {
+                "type": "boolean"
+              },
+              "faction": {
+                "type": "keyword"
+              },
+              "master": {
+                "type": "keyword"
+              },
+              "opponent": {
+                "type": "nested",
+                "dynamic": false,
+                "properties": {
+                  "id": {
+                    "type": "keyword"
+                  },
+                  "name": {
+                    "type": "keyword"
+                  }
+                }
+              },
+              "score": {
+                "type": "keyword",
+                "index": false
+              }
+            }
+          },
+          "status": {
+            "properties": {
+              "win": {
+                "type": "integer"
+              },
+              "lose": {
+                "type": "integer"
+              },
+              "rate_winning": {
+                "type": "float"
+              }
+            }
+          },
+          "inserted": {
+            "type": "date"
+          }
+        }
+      }
+    }
+  },
+
+  "history": {
+    "mappings": {
+      "doc": {
+        "dynamic": false,
+        "properties": {
+          "id": {
+            "type": "keyword"
+          },
+          "requester_id": {
+            "type": "keyword"
+          },
+          "requester_name": {
+            "type": "keyword"
+          },
+          "status": {
+            "type": "keyword"
+          },
+          "users": {
+            "type": "nested",
+            "dynamic": false,
+            "properties": {
+              "id": {
+                "type": "keyword"
+              },
+              "name": {
+                "type": "keyword"
+              },
+              "faction": {
+                "type": "keyword"
+              },
+              "master": {
+                "type": "keyword"
+              },
+              "crew": {
+                "type": "nested",
+                "dynamic": false,
+                "properties": {
+                  "name": {
+                    "type": "keyword"
+                  }
+                }
+              },
+              "strategy": {
+                "type": "nested",
+                "dynamic": false,
+                "properties": {
+                  "name": {
+                    "type": "keyword"
+                  },
+                  "score": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "scheme": {
+                "type": "nested",
+                "dynamic": false,
+                "properties": {
+                  "name": {
+                    "type": "keyword"
+                  },
+                  "score": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "total_score": {
+                "type": "integer"
+              }
+            }
+          },
+          "inserted": {
+            "type": "date"
+          }
+        }
+      }
+    }
+  }
+
+}
